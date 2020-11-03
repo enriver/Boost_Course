@@ -20,7 +20,7 @@ def get_frequent_matrix(filename, dtype=np.float32):
     path="C:\\Users\\river\\Desktop\\부스트코스\\머신러닝을 위한 파이썬\\3_lab_bulid_matrix\\"
     df=pd.read_csv(path+filename)
     
-    return df.groupby(['source','target'])['target'].count().values.reshape(5,-5)
+    return df.groupby(['source','target'])['target'].count().values.reshape(5,-1)
 
 result_1=get_rating_matrix('movie_rating.csv')
 result_2=get_frequent_matrix('1000i.csv')
