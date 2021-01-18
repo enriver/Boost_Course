@@ -1,6 +1,6 @@
 # Boost_Course
 
-부스트코스 강좌 따라하기
+Following the boostcourse education (https://www.boostcourse.org/opencourse)
 
-- 머신러닝을 위한 파이썬
-- 캐글 실습으로 배우는 데이터 사이언스
+- Python for machine-learning
+- Kaggle learning
